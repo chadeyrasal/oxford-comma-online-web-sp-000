@@ -12,5 +12,7 @@ def oxford_comma(array)
     final = string1 + string2
     final
   elsif array.size > 3
+    array1 = []
+    
   end
 end
