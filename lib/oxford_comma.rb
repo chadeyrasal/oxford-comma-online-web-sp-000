@@ -16,8 +16,11 @@ def oxford_comma(array)
     counter = 0
     while counter < array.size - 1 do
       array1 << array[counter]
-      string1 = array1.join(", ")
       counter +=1
+      string1 = array1.join(", ")
+      string2 = ", and " + array.last
+      final = string1 + string2
+      final
     end
   end
 end
