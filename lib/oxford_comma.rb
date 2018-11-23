@@ -15,7 +15,8 @@ def oxford_comma(array)
     array1 = []
     counter = 0
     while counter < array.size - 1 do
-      
+      array1 << array[counter]
+      string1 = array1.join(", ")
       counter +=1
     end
   end
