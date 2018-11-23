@@ -20,7 +20,7 @@ def oxford_comma(array)
       string1 = array1.join(", ")
       string2 = ", and " + array.last
       final = string1 + string2
-      final
     end
+    final
   end
 end
