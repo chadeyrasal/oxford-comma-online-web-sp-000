@@ -13,6 +13,9 @@ def oxford_comma(array)
     final
   elsif array.size > 3
     array1 = []
-    
+    counter = 0
+    while counter < array.size - 1
+      
+    end
   end
 end
