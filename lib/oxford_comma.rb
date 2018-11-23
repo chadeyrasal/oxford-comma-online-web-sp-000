@@ -1,6 +1,5 @@
 def oxford_comma(array)
-  case array
-  when ["kiwi"]
-    
+  if array.size == 1
+
   end
 end
